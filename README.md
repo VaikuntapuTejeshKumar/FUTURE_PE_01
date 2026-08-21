@@ -4,12 +4,16 @@
 
 ## Project Overview
 
-This project demonstrates the use of prompt engineering to
-generate professional website copy for a local business.
+This project demonstrates the use of prompt engineering and AI
+website-building tools to create professional website content
+for a local business.
 
-The project focuses on creating reusable AI prompts that can
-generate homepage content, service descriptions and
-conversion-focused CTA sections.
+The project uses structured AI prompts to generate homepage
+content, service descriptions, value propositions and
+conversion-focused call-to-action sections.
+
+The generated content is then used to create a real,
+responsive business website using Lovable.
 
 ---
 
@@ -26,26 +30,31 @@ conversion-focused CTA sections.
 ## Objective
 
 The main objective of this project is to create a reusable
-AI website copy generation system for local businesses.
+AI-powered website copy generation system for local businesses.
 
 The system generates:
 
 - Homepage copy
 - Services page content
 - Customer-focused descriptions
+- Value propositions
 - Call-to-action sections
 - Conversion-focused website content
+
+The generated content is then implemented in a real website
+using Lovable.
 
 ---
 
 ## Problem Statement
 
 Many local businesses need professional website content to
-clearly explain their services and encourage customers to
-make enquiries or bookings.
+clearly explain their services, build customer trust and
+encourage customers to make enquiries or appointments.
 
-This project uses prompt engineering to simplify the process
-of creating such content.
+This project uses prompt engineering and AI website-building
+tools to simplify the process of creating professional,
+customer-focused website content.
 
 ---
 
@@ -53,18 +62,60 @@ of creating such content.
 
 The generated website content is designed for:
 
-- Local business owners
-- Customers searching for beauty services
-- Men and women looking for grooming services
+- Local business customers
+- Men and women looking for beauty services
+- Customers looking for hair and grooming services
+- Customers looking for skincare services
 - Customers looking for bridal beauty services
 
 ---
 
 ## Tools Used
 
-- ChatGPT
-- GitHub
-- Markdown
+### ChatGPT
+
+ChatGPT was used for prompt engineering and generating
+professional website content.
+
+It was used to create:
+
+- Homepage copy
+- Services page content
+- Value propositions
+- Customer benefits
+- Call-to-action sections
+- Content refinement
+
+### Lovable
+
+Lovable was used as an AI website builder to transform the
+AI-generated content into a real, responsive and functional
+business website.
+
+It was used to create:
+
+- Website layout
+- Homepage
+- Services page
+- About section
+- Contact section
+- Navigation
+- CTA buttons
+- Responsive design
+
+### GitHub
+
+GitHub was used to store, organize and document the complete
+project.
+
+It contains:
+
+- Structured prompts
+- Business information
+- AI-generated outputs
+- Project documentation
+- README file
+- Website project files
 
 ---
 
@@ -80,14 +131,17 @@ The prompts use structured business information such as:
 - Business goal
 - Desired tone
 
-The information is then provided to the AI model to generate
+This information is provided to the AI model to generate
 business-specific website content.
+
+The generated content is then reviewed and refined before
+being implemented into the website.
 
 ---
 
 ## Generated Content
 
-The project generates three major types of content:
+The project generates three major types of website content:
 
 ### 1. Homepage Copy
 
@@ -98,7 +152,7 @@ Includes:
 - Introduction
 - Value proposition
 - Customer benefits
-- Why choose us section
+- Why Choose Us section
 - Homepage CTA
 
 ### 2. Services Page
@@ -124,7 +178,7 @@ Includes:
 
 ## Tone
 
-The content uses a:
+The generated content uses a:
 
 - Friendly tone
 - Professional tone
@@ -134,20 +188,39 @@ The content uses a:
 
 ---
 
-## Project Structure
+## Website Development Process
+
+The website development process followed these steps:
+
+1. Collected business information.
+2. Created structured prompts using ChatGPT.
+3. Generated homepage content.
+4. Generated services page content.
+5. Generated CTA sections.
+6. Reviewed and refined the AI-generated content.
+7. Used the final content to create the website in Lovable.
+8. Improved the website design and layout.
+9. Checked the website for responsiveness and usability.
+10. Published the website.
+11. Organized the project files in GitHub.
+
+---
+
+## Project Workflow
 
 ```text
-ai-website-copy-generator/
-│
-├── README.md
-├── business_information.md
-│
-├── prompts/
-│   ├── homepage_prompt.md
-│   ├── services_prompt.md
-│   └── cta_prompt.md
-│
-└── output/
-    ├── homepage.md
-    ├── services.md
-    └── cta_sections.md
+Business Information
+        ↓
+     ChatGPT
+        ↓
+Prompt Engineering
+        ↓
+AI-Generated Website Copy
+        ↓
+     Lovable
+        ↓
+Real Responsive Website
+        ↓
+     GitHub
+        ↓
+Future Interns Submission
